@@ -121,5 +121,6 @@ print(f"Tag with most GET operations: {max_tag} with {max_operations} operations
 This code will read the JSON, process the data, and print the required result. Ensure the `weather.json` file is correctly placed in the same directory as the script or provide the correct path to it.
 
 ### Complexity
-- **Time Complexity:** \( O(P \times T + K) \)
+Let  P  be the number of paths,  T  be the average number of tags per ‘GET’ method and  K  unique tags.
+- **Time Complexity:** \( O(P x T + K) \)
 - **Space Complexity:** \( O(P + K) \)
